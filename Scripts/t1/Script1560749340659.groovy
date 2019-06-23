@@ -19,6 +19,8 @@ WebUI.navigateToUrl('http://www.ifpi.co.il')
 
 WebUI.maximizeWindow();
 
-WebUI.click(findTestObject('Object Repository/Page_/input__freeSearch'))
+WebUI.click(findTestObject('Object Repository/Page_/magni'))
 
-WebUI.setText(findTestObject('Object Repository/Page_/input__freeSearch'), 'אביב גםן')
+WebUI.setText(findTestObject('Object Repository/Page_/magni'), 'אביב גפן')
+
+WebUI.click(findTestObject('Object Repository/Page_/input__freeSearch'))
